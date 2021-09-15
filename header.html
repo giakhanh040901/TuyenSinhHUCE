@@ -1,4 +1,14 @@
-<head> </head>
+<head>
+	<style>
+		/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+		.sticky {
+			position: fixed;
+			top: 0;
+			width: 100%;
+			background-color: #28303b;
+		}
+	</style>
+</head>
 
 <body>
 	<!-- Start Top Header -->
@@ -8,7 +18,7 @@
 				<p>
 					<a href="./index.html"
 						>Chào mừng bạn đến với Cổng thông tin tuyển sinh Đại học - Trường
-						Đại Học Xây Dựng</a
+						Đại Học Xây Dựng Hà Nội</a
 					>
 				</p>
 			</div>
@@ -100,7 +110,7 @@
 	<!-- End Mid Header -->
 
 	<!-- Start Navbar -->
-	<div class="navbar_sticky sticky">
+	<div id="navbar_add_class" class="navbar_sticky">
 		<div class="container">
 			<div class="main_menu_block">
 				<div class="navbar_menu">
@@ -205,4 +215,21 @@
 		</div>
 	</div>
 	<!-- End Navbar  -->
+	<!-- JS -->
+	<script>
+		window.onscroll = function () {
+			myFunction();
+		};
+
+		var navbar = document.getElementById("navbar_add_class");
+		var sticky = navbar.offsetTop;
+
+		function myFunction() {
+			if (window.pageYOffset > sticky) {
+				navbar.classList.add("sticky");
+			} else {
+				navbar.classList.remove("sticky");
+			}
+		}
+	</script>
 </body>
