@@ -620,7 +620,7 @@ h6 {
 	margin-bottom: 10px;
 }
 
-.container-filter li a {
+.container-filter li button {
 	display: block;
 	padding: 6px 10px;
 	margin: 0px 5px;
@@ -634,8 +634,8 @@ h6 {
 	background-color: #e2a606;
 }
 
-.container-filter li a.active,
-.container-filter li a:hover {
+.container-filter li button.active,
+.container-filter li button:hover {
 	background: transparent !important;
 	border: 1px solid;
 	color: #222;
