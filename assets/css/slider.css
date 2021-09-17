@@ -1,0 +1,115 @@
+.swiper {
+    width: 100%;
+    top: -60px;
+}
+
+.swiper-slide {
+    position: relative;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+    filter: brightness(0.3);
+}
+/* Start Silder */
+/* #slider {
+	position: relative;
+	margin-top: -60px;
+	padding-top: 45%;
+	background: url("../img/slider-show/tuyensinh2019_1554095914591.jpg") center
+		center/ cover no-repeat;
+} */
+
+.banner_text {
+	position: absolute;
+	left: 240px;
+	top: 165px;
+	width: 600px;
+}
+
+.banner_text a {
+	color: #ffffff;
+}
+
+.text-heading a {
+	font-family: "Montserrat", sans-serif;
+	font-size: 40px;
+	line-height: 60px;
+	font-weight: 800;
+}
+
+.text-heading h2 {
+	padding: 10px 0;
+	margin-bottom: 10px;
+    text-align: left;
+}
+
+.text-heading span {
+    color: #e2a606;
+}
+
+.text-description {
+    margin-bottom: 30px;
+    color: #ffffff;
+}
+
+.banner_text .btn_text {
+	text-transform: uppercase;
+	background-color: #e2a606;
+	padding: 14px 42px;
+	margin-top: 20px;
+	font-size: 13px;
+	font-weight: 700;
+	letter-spacing: 0.5px;
+}
+
+/* #slider .banner_text .btn_text:hover:before {
+	transform: scaleX(1);
+	opacity: 1;
+} */
+
+.banner_text .btn_text:hover {
+	background: #28303b;
+}
+
+
+#slider .arrows {
+	visibility: hidden;
+	color: #fff;
+	border: 1px solid #fff;
+	cursor: pointer;
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	top: 50%;
+	display: block;
+	z-index: 1000;
+	font-size: 14px;
+	display: block;
+	text-align: center;
+}
+
+#slider:hover .arrows {
+	visibility: visible;
+}
+
+.left_arrow {
+	transform: matrix(1, 0, 0, 1, 50, -20);
+	left: 0px;
+}
+
+.right_arrow {
+	transform: matrix(1, 0, 0, 1, -90, -20);
+	left: 100%;
+}
+
+#slider .left_arrow:hover,
+#slider .right_arrow:hover {
+	background: #daa106;
+	border: 1px solid #daa106;
+}
+
