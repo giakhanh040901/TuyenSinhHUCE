@@ -95,6 +95,9 @@ h6 {
 	line-height: 1.1;
 }
 
+.heading_box h2 {
+	text-align: center;
+}
 .heading_text {
 	padding: 0 15px;
 	margin-bottom: 30px;
@@ -522,7 +525,7 @@ h6 {
 
 .container-filter li button {
 	display: block;
-	padding: 6px 10px;
+	padding: 12px 10px;
 	margin: 0px 5px;
 	text-transform: uppercase;
 	letter-spacing: 2px;
@@ -718,6 +721,7 @@ h6 {
 	line-height: 17px;
 }
 .testimonial {
+	min-height: 432px;
 	cursor: all-scroll;
 }
 .right_registration .testimonial span {
