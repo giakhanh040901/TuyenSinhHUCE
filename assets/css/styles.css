@@ -817,7 +817,9 @@ h6 {
 	letter-spacing: 2px;
 	line-height: 17px;
 }
-
+.testimonial {
+	cursor: all-scroll;
+}
 .right_registration .testimonial span {
 	display: block;
 }
